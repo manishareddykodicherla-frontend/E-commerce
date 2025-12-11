@@ -22,7 +22,7 @@ img{
     max-width:100%;/* this will make sure that all the images take 100% width of its oarent here parent is .header__container*/
     height: auto;
     display: block;
-    padding:20px;
+   
 }
 body{
 max-width:100vw;
@@ -168,52 +168,32 @@ background-repeat: no-repeat;
     background-color: rgb(204, 186, 220);
 
 }
-.feature--book{
-    width:calc(100% /4);
-}
 .books{
-    display: flex;
-   gap:20px
+    display:flex;
 }
 .book{
-    width:25%;
-    padding:20px;
-    max-width:450px;
-    margin:0 auto;
-}
-h2{
-    width:90vw;
-    height: 8vh;
-}
-
-.book__title{
-    padding:0px 20px;
-    margin-bottom:6px;
-
-}
-.book--ratings{
-   padding:0px 10px;
-    margin-bottom:6px;
- 
-}
-.book--pricing{
-    padding:0px 10px;
-    margin-bottom:6px;
-
+    padding:10px;
+    translate: all 200ms ease;
+    width:calc(100% /4);
+    
 }
 .book__img{
-    transition:all 900ms ease;
+    width:auto;
 }
- .book__img--wrapper:hover .book__img {
-    transform:scale(1.03);
+.book__title{
+    margin-top:5px;
 }
+.book__img:hover{
+    transform:scale(1.3);
+}
+
 .book--ratings{
     color:goldenrod;
-
+    margin-bottom:5px;
+    
 }
-.book__img--wrapper {
-    margin-bottom:8px;
-    border-radius:5px;
-
-  
+.book__price--normal{
+    
+    text-decoration:line-through;
+    
 }
